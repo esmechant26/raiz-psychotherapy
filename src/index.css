@@ -41,7 +41,7 @@ body,
 }
 
 .nested-accordion-header.open {
-  color: var(--color-accent);
+  color: var(--color-text);
 }
 
 .nested-accordion-panel {
@@ -60,14 +60,15 @@ body,
 
 .work-with-summary {
   margin: 0 0 0.75rem;
-  color: var(--color-muted);
+  color: var(--color-text);
   line-height: 1.7;
 }
 
 .work-with-list {
   margin: 0;
-  padding-left: 1.2rem;
-  color: var(--color-muted);
+  padding-left: 0;
+  list-style: none;
+  color: var(--color-text);
   line-height: 1.7;
 }
 

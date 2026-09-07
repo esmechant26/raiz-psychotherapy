@@ -83,7 +83,12 @@ const faqItems = [
           </a>{" "}
           Please note that you will have to sign up through Grow Therapy and we will be required to use their platform for sessions covered by insurance.
         </p>
-        <p>I also take other insurances through Headway.</p>
+        <p>
+          I also take other insurances through{" "}
+          <a href="https://care.headway.co/providers/aleida-moreno?utm_source=pem&utm_medium=direct_link&utm_campaign=227869" target="_blank" rel="noopener noreferrer">
+            Headway.
+          </a>
+        </p>
       </>
     ),
   },

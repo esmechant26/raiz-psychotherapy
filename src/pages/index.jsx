@@ -8,7 +8,7 @@ const workWithSections = [
     id: "lgbtq",
     title: "LGBTQ+ identified individuals",
     summary:
-      "Raíz Psychotherapy specializes in providing LGBTQ+ Affirming therapy to individuals and relationships in California. It is not limited to any one style of therapy or to themes specifically around identity or sexuality but rather is a framework that is able to be applied in any setting, theme, or conversation. Some of the themes I have experience supporting LGBTQ+ individuals and relationships in include but are not limited to:",
+      "Raíz Psychotherapy specializes in providing LGBTQ+ Affirming therapy to individuals and relationships in California. LGBTQ+ Affirming therapy is not limited to any one style of therapy or to themes specifically around identity or sexuality but rather is a framework that is able to be applied in any setting, theme, or conversation. Some of the themes I have experience supporting LGBTQ+ individuals and relationships in include but are not limited to:",
     details: [
       {
         id: "lgbtq-relational-issues",
@@ -245,7 +245,7 @@ function Home() {
           </button>
         </section>
 
-        <h3 className="section-subtitle">Who I Work With</h3>
+        <h2 className="section-title">Who I Work With</h2>
 
         <div className="accordion" role="list">
           {workWithSections.map((section) => (
@@ -312,6 +312,11 @@ function Home() {
             your trauma history, at Raíz Psychotherapy it can also look like working exclusively in the present moment, acknowledging the impacts of the past without having to re-live the details.
           </p>
         </section>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <a href="https://www.inclusivetherapists.com/crisis" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.inclusivetherapists.com/images/badges/warmlines.png" width="200" alt="Inclusive Therapists Warmlines That Avoid Police" />
+          </a>
+        </div>
       </section>
     </main>
   );
